@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0; font-family: sans-serif; box-sizing: border-box;}
+
+header{
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+input{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid grey;
+  width: 300px;
+}
+
+button[type="submit"]{
+  display: inline-block;
+  padding: 5px 25px;
+  border: none;
+  background: rgb(3, 154, 173);
+  color: white;
+  margin-left: 25px;
+}
+
+.actions{
+  display: flex;
+}
+
+.container{
+  width: 1200px;
+  margin:auto;
+}
+
+form, .todo-item{
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  align-items: center;
+  min-height: 50px;
+}
+
+.todo-item{
+  background: rgb(245, 245, 245);
+  padding: 0 0 0 20px;
+}
+
+.item{
+  width: 80%;
+}
+
+.actions{
+  width: 20%;
+  height: 50px;
+}
+
+.actions a{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete{
+  color: tomato;
+}
+
+.finished{
+  color: green;
+}

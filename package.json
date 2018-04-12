@@ -1,0 +1,17 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todo list app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files **/*.* --no-notify --no-online"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "systemjs": "^0.20.18",
+    "systemjs-plugin-babel": "0.0.25"
+  }
+}
